@@ -1,0 +1,21 @@
+#main{
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    margin-top: 5rem;
+    padding : 5rem 3rem;
+    border-radius: 2rem;
+}
+
+.main-startbtn,
+.main-explan{
+   margin-top: 1.2rem; 
+}
+
+.main-explan{
+    font-size: 1.3rem;
+}
+
+#main h1 {
+    font-size: 2.2rem;
+}

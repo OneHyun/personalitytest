@@ -1,0 +1,26 @@
+#result{
+    display: none;
+    background-color: whitesmoke;
+    width: 80%;
+    text-align: center;
+    margin-top: 5rem;
+    padding : 5rem 3rem;
+    border-radius: 2rem;
+}
+
+#result h1,
+.result-name {
+    font-size: 2.2rem;
+}
+
+.result-desc{
+    font-size: 1.2rem;
+}
+
+.img-fluid{
+    max-height: 450px;
+}
+
+.result-sharebtn{
+   margin-top: 1.2rem; 
+}

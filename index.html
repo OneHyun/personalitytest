@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="onehyun"/>
+    <!-- study from panda coding --> 
+
+    <meta name="keywords" content="십이간지 유형검사"/>
+    <meta name="description" content="십이간지 유형검사, The JS studying"/>
+
+    <!-- sns share -->
+    <meta property="og:url" content="https://personalityanmailtype.netlify.app" />
+    <meta property="og:title" content="십이간지 유형검사" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="./resource/img/main.png" />
+    <meta property="og:description" content="십이간지로 알아보는 연애유형" />
+
+     <!-- favicon -->
+     <link rel="shortcut icon" href="./resource/img/favicon.png" />
+     <link rel="apple-touch-icon-precomposed" href="./resource/img/favicon.png" />
+    <title>십이간지 유형검사</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="container">
+        <section id="main" class="mx-auto">
+            <h1>십이간지로 알아보는 연애유형</h1>
+            <div class="col-lg-6 col-md-6 col-sm-6 col-12 mx-auto">
+                <img src="./resource/img/main.png" alt="mainImage" class="img-fluid">
+            </div>
+            <p class="main-explan">
+                나만의 MBTI 사이트 입니다 ! <br>
+                아래 시작하기 버튼을 눌러 시작해 주십시오.
+            </p>
+            <button type="button" class="main-startbtn" onclick="js:begin()">시작하기</button>
+        </section>
+
+        <section id="qna">
+            <div class="status mx-auto">
+                <div class="status-bar"></div>
+            </div>
+            <div class="question-box mx-auto" ></div>
+            <div class="answer-box"></div>
+        </section>
+
+        <section id="result" class="mx-auto">
+            <h1>당신의 결과는?</h1>
+            <div class="result-name">
+            </div>
+            <div class="result-img" class="col-lg-6 col-md-6 col-sm-6 col-12 mx-auto">
+            </div>
+            <div class="result-desc">
+            </div>
+            <button type="button" class="result-sharebtn">공유하기</button>
+        </section>
+        <script src="./js/data.js" charset="utf-8"></script>
+        <script src="./js/start.js" charset="utf-8"></script>
+    </div>
+</body>
+</html>
